@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<style>
+  table, th, td {
+    border:1px solid black;
+  }
+  </style>
+<body>
+
+  <header>
+    <nav style="background-color: black; color: white;">
+       &nbsp; <a href="http://127.0.0.1:5500/AboutMe.html" style="text-decoration: none; color: white;">About Me</a> | 
+        <a href="http://127.0.0.1:5500/CV.html" style="text-decoration: none; color: white;">CV</a> | 
+        <a href="Register.html" style="text-decoration: none; color: white;">Register</a>
+    </nav>
+  </header>
+    
+
+    <!-- Form -->
+    <h2>Masukkan data sesuai yang Dibutuhkan</h2>
+
+  <form action="/action_page.php">
+    <label for="name">Nama :</label><br>
+    <input type="text" id="name" name="name" value=""><br><br>
+    <label for="birth">Tanggal Lahir : </label><br>
+    <input type="date" id="birth" name="birth"><br><br>
+    <label for="month">Periode Register :</label><br>
+    <input type="month" name="month" id="month"><br><br>
+    <label for="pass">Password (Buatlah password yang aman) :</label><br>
+    <input type="password" name="pass" id="pass"><br><br>
+    <label for="email">Email :</label><br>
+    <input type="email" id="email" name="email" value=""><br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form> 
+
+    <br>
+    <br>
+
+    <!-- Progress Bar, Video, Audio, Figure -->
+
+    <h2 style="color: red;">ADS!!!</h2>
+
+    <table>
+      <tr>
+        <td>
+          <!-- Video -->
+          &nbsp;
+          <video src="frontend/images/videoads.mp4" width="512" height="360" autoplay loop></video>
+          &nbsp;
+
+          <br>
+          <!-- Audio -->
+          <audio src="frontend/library/Ads Song.mp3" controls autoplay loop></audio>
+        </td>
+
+        <td>
+          <!-- Figure -->
+          <figure>
+            <img src="frontend/images/PhotoAds.jpg" alt="BELAJAR EDITING GRATIS" width="300" height="200">
+            <figcaption>Belajar disini Auto JAGO!!!!!</figcaption>
+          </figure>
+
+          <!-- Progress Bar -->
+          <h3>Buruan Daftar !!!</h3>
+          <label for="space">Slot Pendaftaran : </label>
+          <progress id="file" value="40" max="100" > 40% </progress>
+          <br><br>
+          <center><button type="button" style="color: red;">DAFTAR SEKARANG</button></center>
+        </td>
+      </tr>
+    </table>
+    
+    
+
+    
+</body>
+</html>
